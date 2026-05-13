@@ -1,0 +1,66 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4fff4;
+}
+
+nav {
+  background-color: darkgreen;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.landing-page {
+  height: 80vh;
+
+  background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.product-card,
+.cart-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+img {
+  border-radius: 10px;
+}
