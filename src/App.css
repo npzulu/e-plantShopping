@@ -760,7 +760,11 @@ body {
   font-size: 2.5rem;
   margin-bottom: 16px;
 }
-
+.background-image {
+  background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+}
 @media (max-width: 600px) {
   .navbar { padding: 0 16px; }
   .plants-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
